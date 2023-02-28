@@ -1,0 +1,26 @@
+.header{
+    display: block;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    width: 800px;
+    height: 40px;
+    padding: 10px;
+}
+
+.menuItem {
+    display: block;
+    justify-content: baseline;
+    text-align: center;
+    border: 1px solid green;
+    padding: 5px;
+    width: 600px;
+    height: 20px;
+}
