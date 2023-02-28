@@ -9,9 +9,9 @@
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid black;
-    width: 800px;
-    height: 40px;
+
+    width: 1000px;
+    height: 50px;
     padding: 10px;
 }
 
@@ -19,8 +19,23 @@
     display: block;
     justify-content: baseline;
     text-align: center;
-    border: 1px solid green;
+
     padding: 5px;
     width: 600px;
-    height: 20px;
+    height: 40px;
+}
+
+.maunuItemBtn{
+    cursor: pointer;
+    background-color: aquamarine;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 2px;
+    width: 150px;
+    height: 35px;
+}
+
+.maunuItemBtn:hover{
+    background-color: beige;
 }
